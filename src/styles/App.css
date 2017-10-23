@@ -1,0 +1,164 @@
+body{
+  background: #609dff;
+  background: -webkit-linear-gradient(#609dff, white, #ff5454); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#609dff, white, #ff5454); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#609dff, white, #ff5454); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#609dff, white, #ff5454); /* Standard syntax */;
+}
+
+.navbar-nav{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  font-family: 'Pompiere', cursive;
+  align-items: center;
+  background: white;
+  width: 100%;
+}
+
+.nav-link a{
+  font-size: 1.5em;
+  color: black;
+  text-shadow: 1px 1px 1px lightyellow;
+}
+
+.logoImage{
+  height: 48px
+}
+
+.aboutPage{
+  display: flex;
+  flex-direction: column;
+  flex: none;
+}
+
+.truck2{
+  width: 100%;
+  height: 100%
+}
+
+.mainBio{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
+  align-items:center;
+  padding: 2em;
+  background-color: white;
+  padding: 2em;
+  font-family: 'Pompiere', cursive;
+}
+
+.mainBioContent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2em;
+}
+
+.mainBioContent p{
+  font-size: 1.3em;
+}
+
+.ron{
+  width: 40%;
+  height: 40%;
+}
+
+.secondaryBio{
+  display: flex;
+  margin: 0 10%;
+  align-items:center;
+}
+
+.secondaryBioContent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2em;
+}
+
+.bodyImage{
+  width: 100%
+}
+
+.contactTitle{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+  padding: 5%;
+  width: 100%
+}
+
+.contactLinks{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10%;
+  font-family: 'Pompiere', cursive;
+}
+
+.contactP{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contactLogo{
+  height: 100px;
+  width: 100px;
+}
+
+.menuPage{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Pompiere', cursive;
+  margin: 5% 10%;
+  padding: 2em;
+  border: 1px black dotted;
+  background: white;
+}
+
+.menuTitle{
+  display: flex;
+  justify-content: center;
+}
+
+.cuisine{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.menuDesc{
+  font-size: 1.2em;
+}
+
+.calendarContent{
+  margin: 5% auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Pompiere', cursive;
+}
+
+.footerLogo{
+  height: 1.5em;
+}
+
+footer{
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 25%;
+  margin-top: 1em;
+}
