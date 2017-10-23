@@ -1,9 +1,11 @@
 body{
-  background: #609dff;
-  background: -webkit-linear-gradient(#609dff, white, #ff5454); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#609dff, white, #ff5454); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#609dff, white, #ff5454); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#609dff, white, #ff5454); /* Standard syntax */;
+  background-image: url("../images/flag.jpg");
+  background-size: cover;
+  /*background: #609dff;
+  /*background: -webkit-linear-gradient(#609dff, white, #ff5454); /* For Safari 5.1 to 6.0 */
+  /*background: -o-linear-gradient(#609dff, white, #ff5454); /* For Opera 11.1 to 12.0 */
+  /*background: -moz-linear-gradient(#609dff, white, #ff5454); /* For Firefox 3.6 to 15 */
+  /*background: linear-gradient(#609dff, white, #ff5454); /* Standard syntax */
 }
 
 .navbar-nav{
@@ -78,7 +80,8 @@ body{
 }
 
 .bodyImage{
-  width: 100%
+  width: 100%;
+  margin-bottom: -1em;
 }
 
 .contactTitle{
@@ -86,7 +89,8 @@ body{
   justify-content: center;
   margin-bottom: 1em;
   padding: 5%;
-  width: 100%
+  width: 100%;
+  text-shadow: 1px 1px 1px lightyellow;
 }
 
 .contactLinks{
@@ -159,6 +163,6 @@ footer{
   background: white;
   display: flex;
   justify-content: space-around;
-  padding: 0 25%;
+  padding: 1em 25%;
   margin-top: 1em;
 }
