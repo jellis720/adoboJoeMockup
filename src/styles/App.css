@@ -16,6 +16,8 @@ body{
   align-items: center;
   background: white;
   width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 .nav-link a{
@@ -32,6 +34,7 @@ body{
   display: flex;
   flex-direction: column;
   flex: none;
+  margin-top: 5%
 }
 
 .truck2{
@@ -90,7 +93,8 @@ body{
   margin-bottom: 1em;
   padding: 5%;
   width: 100%;
-  text-shadow: 1px 1px 1px lightyellow;
+  color: lightyellow;
+  text-shadow: 1px 1px 1px black;
 }
 
 .contactLinks{
@@ -107,6 +111,7 @@ body{
   width: 100%;
   padding: 10%;
   font-family: 'Pompiere', cursive;
+  margin-top: 5%
 }
 
 .contactP{
@@ -114,6 +119,8 @@ body{
   flex-direction: column;
   align-items: center;
   margin-bottom: 10px;
+  color: lightyellow;
+  text-shadow: 1px 1px 1px black;
 }
 
 .contactLogo{
@@ -126,7 +133,7 @@ body{
   justify-content: center;
   flex-direction: column;
   font-family: 'Pompiere', cursive;
-  margin: 5% 10%;
+  margin: 8% 10%;
   padding: 2em;
   border: 1px black dotted;
   background: white;
@@ -148,11 +155,13 @@ body{
 }
 
 .calendarContent{
-  margin: 5% auto;
+  margin: 8% auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   font-family: 'Pompiere', cursive;
+  text-shadow: 1px 1px 1px lightyellow;
+  color: white
 }
 
 .footerLogo{
@@ -165,4 +174,7 @@ footer{
   justify-content: space-around;
   padding: 1em 25%;
   margin-top: 1em;
+  bottom: 0;
+  position: fixed;
+  width: 100%
 }
