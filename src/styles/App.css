@@ -36,7 +36,8 @@ body{
   display: flex;
   flex-direction: column;
   flex: none;
-  margin-top: 5%
+  margin-top: 5%;
+  margin-bottom: 50px;
 }
 
 .truck2{

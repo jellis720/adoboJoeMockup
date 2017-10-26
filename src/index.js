@@ -13,7 +13,7 @@ import Contact from'./components/Contact';
 import Schedule from './components/Schedule';
 
 ReactDOM.render(
-  <BrowserRouter basename="/">
+  <BrowserRouter basename="adobeJoeMockup">
       <Switch>
         <Route exact path="/" component={App}/>
         <Route path="/Menu" component={Menu}/>
